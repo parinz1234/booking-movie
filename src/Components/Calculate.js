@@ -11,7 +11,7 @@ export default class Calculate extends Component {
   // }
 
   componentDidMount () {
-    fetch(`http://www.mocky.io/v2/5b07eec23200005400700107`)
+    fetch(`https://www.mocky.io/v2/5b07eec23200005400700107`)
     .then(response => response.json())
     .then(movies => this.setState({ movies: movies.data }))
   }

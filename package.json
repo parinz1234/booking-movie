@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "antd": "^3.5.3",
+    "axios": "^0.18.0",
+    "enzyme-to-json": "^3.3.4",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-router-dom": "^4.2.2",
@@ -15,5 +17,16 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "jest-styled-components": "^5.0.1",
+    "sinon": "^5.0.10"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
   }
 }

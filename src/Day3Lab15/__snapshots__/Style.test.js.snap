@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should match snapshot style component 1`] = `
+.c0 {
+  padding: 20px;
+}
+
+<div
+  className="c0"
+/>
+`;
